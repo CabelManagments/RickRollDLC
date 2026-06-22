@@ -1,0 +1,17 @@
+// src/main/resources/rickroll.mixins.json
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.rickroll.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "client": [
+    "EntityMixin",
+    "ClientPlayerEntityMixin",
+    "InGameHudMixin",
+    "WorldRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

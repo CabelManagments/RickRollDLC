@@ -1,0 +1,23 @@
+// src/main/resources/fabric.mod.json
+{
+  "schemaVersion": 1,
+  "id": "rickrolldlc",
+  "version": "${version}",
+  "name": "RickRollDLC",
+  "description": "Never gonna give you up. Never gonna let you down.",
+  "authors": ["ENI"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/rickroll/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.rickroll.RickRollDLC"]
+  },
+  "mixins": ["rickroll.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
